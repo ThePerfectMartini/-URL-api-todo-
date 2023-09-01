@@ -34,7 +34,7 @@ HomeView에서 어플이 실행되어 viewDidLoad가 되었을때 랜덤 고양�
 유저디폴츠
 
 UserDefault에 데이터를 저장할 때 TableViewCell 에 그려줄 데이터들이 하나가 아닌 여러개를 가지고 있었으면 했다.<br>
-그래서 데이터의 class를 생성하여 [TodoDataCell] 형태로 배열로 저장했다.<br>
-저장하기 위해 dataClass들을 각각 encode해서 encodedList에 [Data] 형태로 저장한 뒤 DataModel에 저장한다.<br>
+그래서 데이터의 class를 생성하여 [TodoDataCell] 형태의 배열로 저장했다.<br>
+저장하기 위해 TodoDataCell 각각 encode해서 encodedList에 [Data] 형태로 저장한 뒤 DataModel에 저장한다.<br>
 이후 UserDefaults에 set을 이용해 저장해준다.<br>
 불러올 경우에는 Array 형태로 불러온 뒤 [Data]를 encodedList에 저장해주고 각각 decode해서 viewModel의 cellList[TodoDataCell]에 저장한다.<br>
