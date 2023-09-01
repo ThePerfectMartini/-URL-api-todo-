@@ -38,3 +38,26 @@ UserDefault에 데이터를 저장할 때 TableViewCell 에 그려줄 데이터�
 저장하기 위해 TodoDataCell 각각 encode해서 encodedList에 [Data] 형태로 저장한 뒤 DataModel에 저장한다.<br>
 이후 UserDefaults에 set을 이용해 저장해준다.<br>
 불러올 경우에는 Array 형태로 불러온 뒤 [Data]를 encodedList에 저장해주고 각각 decode해서 viewModel의 cellList[TodoDataCell]에 저장한다.<br>
+
+# URLManager
+URL매니저
+
+
+싱글톤으로 URL매니저를 구현하여 URL의 parsing이나 URLSession이 필요한 곳에서 편하게 쓸 수 있다.
+
+# HomeView
+홈 화면
+
+
+홈화면에서는 고양이 사진이 랜덤하게 나온다. 플레이스홀더는 흰색배경의 춤추는듯한 고양이 이미지이다.
+
+할일 버튼을 누르면 할일 화면으로 이동하고, 초기화 버튼을 누르면 초기화된다.
+
+# TableView
+할일 화면
+
+  테이블뷰 오른쪽 하단의 + 버튼으로 내용을 추가할 수 있다.
+  테이블뷰에서 edit버튼을 눌러 edit모드로 진입할 수 있고 이때 화면에 애니메이션이 있다.<br>
+  각 셀에 왼쪽에 -버튼이 생기며 누를시 delete 버튼이 오른쪽에 뜬다. <br>
+  그리고 edit모드에 진입시 셀을 클릭하면 셀의 내용을 수정 할 수 있다.
+  
