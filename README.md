@@ -7,6 +7,10 @@
 # Architectural Patterns
 아키텍처 패턴
 
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKaMtR%2FbtssS2opP8V%2FtkqnNZCCXKsigrOOwEtul0%2Fimg.png"/>
+
+
 <li>MVVM 패턴을 사용</li>
 
   DataModel은 앱의 raw 데이터들을 모두 가지고있고 singleton 으로 구현했다.<br>
