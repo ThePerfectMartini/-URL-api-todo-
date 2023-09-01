@@ -1,6 +1,7 @@
 # UserDefaults 사용 URL세션 api 테스트 todo리스트
-UserDefaults and URLSession API Test
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=첫번째+줄+의+텍스트;두번째+줄+의+텍스트)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=UserDefaults_And;URLSession_API_Test)](https://git.io/typing-svg)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=ToDoApp&fontSize=90" />
 
 # Architectural Patterns
